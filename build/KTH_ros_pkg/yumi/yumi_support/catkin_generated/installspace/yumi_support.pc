@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: yumi_support
+Description: Description of yumi_support
+Version: 0.0.4
+Cflags: 
+Libs: -L/home/casch/yumi_depends_ws/install/lib 
+Requires: 

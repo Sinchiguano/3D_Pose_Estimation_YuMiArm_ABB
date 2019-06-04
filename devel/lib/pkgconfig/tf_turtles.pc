@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/devel
+
+Name: tf_turtles
+Description: Description of tf_turtles
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/casch/yumi_depends_ws/devel/lib 
+Requires: 

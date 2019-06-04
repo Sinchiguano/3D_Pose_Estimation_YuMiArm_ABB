@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/devel
+
+Name: abb_irb6600_support
+Description: Description of abb_irb6600_support
+Version: 1.2.1
+Cflags: 
+Libs: -L/home/casch/yumi_depends_ws/devel/lib 
+Requires: 

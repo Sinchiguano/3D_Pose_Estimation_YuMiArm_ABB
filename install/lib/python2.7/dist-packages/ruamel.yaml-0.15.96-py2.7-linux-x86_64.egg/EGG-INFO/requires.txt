@@ -1,0 +1,9 @@
+
+[:platform_python_implementation=="CPython" and python_version<="2.7"]
+ruamel.ordereddict
+
+[docs]
+ryd
+
+[jinja2]
+ruamel.yaml.jinja2>=0.2

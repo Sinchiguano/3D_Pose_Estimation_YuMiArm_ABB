@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/devel
+
+Name: yumi_launch
+Description: Description of yumi_launch
+Version: 0.0.4
+Cflags: 
+Libs: -L/home/casch/yumi_depends_ws/devel/lib 
+Requires: 

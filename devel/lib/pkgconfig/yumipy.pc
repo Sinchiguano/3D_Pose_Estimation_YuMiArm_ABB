@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/devel
+
+Name: yumipy
+Description: Description of yumipy
+Version: 0.1.0
+Cflags: -I/home/casch/yumi_depends_ws/devel/include
+Libs: -L/home/casch/yumi_depends_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: gazebo_mimic
+Description: Description of gazebo_mimic
+Version: 0.0.4
+Cflags: -I/home/casch/yumi_depends_ws/install/include
+Libs: -L/home/casch/yumi_depends_ws/install/lib -lgazebo_mimic_plugin
+Requires: roscpp

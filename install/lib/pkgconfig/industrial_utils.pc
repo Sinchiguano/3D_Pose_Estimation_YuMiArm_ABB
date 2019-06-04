@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: industrial_utils
+Description: Description of industrial_utils
+Version: 0.4.3
+Cflags: -I/home/casch/yumi_depends_ws/install/include
+Libs: -L/home/casch/yumi_depends_ws/install/lib -lindustrial_utils
+Requires: roscpp urdf

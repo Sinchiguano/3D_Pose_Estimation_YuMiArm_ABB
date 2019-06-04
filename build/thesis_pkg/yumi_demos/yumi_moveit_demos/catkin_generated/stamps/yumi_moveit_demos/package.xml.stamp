@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>yumi_moveit_demos</name>
+  <version>0.1.0</version>
+  <description>YuMi test controllers</description>
+
+
+  <maintainer email="yoshua@kth.se">Yoshua Nava</maintainer>
+
+  <license>BSD</license>
+
+  <author>Yoshua Nava</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

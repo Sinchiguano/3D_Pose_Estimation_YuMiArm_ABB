@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: abb_irb6640_moveit_config
+Description: Description of abb_irb6640_moveit_config
+Version: 1.2.1
+Cflags: 
+Libs: -L/home/casch/yumi_depends_ws/install/lib 
+Requires: 

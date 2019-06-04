@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: realsense2_camera
+Description: Description of realsense2_camera
+Version: 2.1.1
+Cflags: -I/home/casch/yumi_depends_ws/install/include
+Libs: -L/home/casch/yumi_depends_ws/install/lib -lrealsense2_camera
+Requires: message_runtime roscpp sensor_msgs std_msgs nodelet cv_bridge image_transport ddynamic_reconfigure

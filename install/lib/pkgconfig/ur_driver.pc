@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: ur_driver
+Description: Description of ur_driver
+Version: 1.2.1
+Cflags: -I/home/casch/yumi_depends_ws/install/include
+Libs: -L/home/casch/yumi_depends_ws/install/lib 
+Requires: dynamic_reconfigure

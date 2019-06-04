@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: simple_message
+Description: Description of simple_message
+Version: 0.4.3
+Cflags: -I/home/casch/yumi_depends_ws/install/include
+Libs: -L/home/casch/yumi_depends_ws/install/lib -lsimple_message_dummy
+Requires: roscpp industrial_msgs

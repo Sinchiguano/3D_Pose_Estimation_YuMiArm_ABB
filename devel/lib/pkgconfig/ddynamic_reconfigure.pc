@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/devel
+
+Name: ddynamic_reconfigure
+Description: Description of ddynamic_reconfigure
+Version: 0.0.6
+Cflags: -I/home/casch/yumi_depends_ws/devel/include -I/home/casch/yumi_depends_ws/src/realsense-2.2.0/ddynamic_reconfigure/include
+Libs: -L/home/casch/yumi_depends_ws/devel/lib -lddynamic_reconfigure
+Requires: 

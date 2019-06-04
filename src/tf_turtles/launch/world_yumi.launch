@@ -1,0 +1,26 @@
+
+<launch>
+
+
+  <group ns="baselink_world1">
+      <node pkg="tf" type="static_transform_publisher" name="link_broadcaster" args="0 0 0 0 0 0 /world /Robot 100" />
+  </group>
+
+
+  <group ns="baselink_world2">
+      <node pkg="tf" type="static_transform_publisher" name="link_broadcaster" args="0.40 0.20 0.20  0.0 0.0 0.0 /Robot /End_Effector 100" />
+  </group>
+
+
+  <group ns="baselink_world3">
+      <node pkg="tf" type="static_transform_publisher" name="link_broadcaster" args="0.20 0.005 0.05  0.0 0.0 0.0 /End_Effector /Target 100" />
+  </group>
+
+
+  <group ns="baselink_world4">
+      <node pkg="tf" type="static_transform_publisher" name="link_broadcaster" args="0.30 0.0 0.25  3.1415927 1.5707963 0.0 /Target /Camera 100" />
+  </group>
+
+
+
+</launch>

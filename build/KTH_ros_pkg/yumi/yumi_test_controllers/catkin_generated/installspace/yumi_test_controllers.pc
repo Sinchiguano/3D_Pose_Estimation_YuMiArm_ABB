@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: yumi_test_controllers
+Description: Description of yumi_test_controllers
+Version: 0.1.0
+Cflags: -I/home/casch/yumi_depends_ws/install/include
+Libs: -L/home/casch/yumi_depends_ws/install/lib -lyumi_test_controllers
+Requires: angles control_msgs control_toolbox controller_interface forward_command_controller realtime_tools sensor_msgs

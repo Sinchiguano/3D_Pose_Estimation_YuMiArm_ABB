@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/casch/yumi_depends_ws/build/KTH_ros_pkg/industrial_core/industrial_robot_client/industrial_robot_client_dummy.cpp
+

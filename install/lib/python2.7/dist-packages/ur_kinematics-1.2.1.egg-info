@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ur_kinematics
+Version: 1.2.1
+Summary: Provides forward and inverse kinematics for Universal Robots designs.
+     See http://hdl.handle.net/1853/50782 for details.
+Home-page: http://wiki.ros.org/ur_kinematics
+Author: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>, Miguel Prada Sarasola <miguel.prada@tecnalia.com>, Nadia Hammoudeh Garcia <nhg@ipa.fhg.de>
+Author-email: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

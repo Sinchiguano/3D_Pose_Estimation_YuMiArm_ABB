@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ur_driver
+Version: 1.2.1
+Summary: Driver for the UR5/10 arm based on the Polyscope control scheme.
+Home-page: http://ros.org/wiki/ur_driver
+Author: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>, Miguel Prada Sarasola <miguel.prada@tecnalia.com>, Nadia Hammoudeh Garcia <nhg@ipa.fhg.de>
+Author-email: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

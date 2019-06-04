@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/install
+
+Name: yumi_main
+Description: Description of yumi_main
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/casch/yumi_depends_ws/install/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,libgazebo_mimic_plugin.so -o /home/casch/yumi_depends_ws/devel/lib/libgazebo_mimic_plugin.so CMakeFiles/gazebo_mimic_plugin.dir/src/gazebo_mimic_plugin/mimic_plugin.cpp.o 

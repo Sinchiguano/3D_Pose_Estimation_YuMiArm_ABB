@@ -1,0 +1,8 @@
+prefix=/home/casch/yumi_depends_ws/devel
+
+Name: ur_msgs
+Description: Description of ur_msgs
+Version: 1.2.1
+Cflags: -I/home/casch/yumi_depends_ws/devel/include
+Libs: -L/home/casch/yumi_depends_ws/devel/lib 
+Requires: message_runtime std_msgs
