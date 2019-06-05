@@ -147,7 +147,8 @@ def do_csv_file(tran_rot,counter1,computation_time,max_fitness,min_rmse,aux_rmse
     quat=[a[0], a[1], a[2], a[3]]
     with open(name_file, 'a') as csvfile:# a means append
         filewriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        filewriter.writerow(computation_time+aux_rmse+min_rmse+aux_fitness+max_fitness)
+        #filewriter.writerow(computation_time+aux_rmse+min_rmse+aux_fitness+max_fitness)
+        filewriter.writerow(computation_time)
 
 # Calculates rotation matrix to euler angles
 def do_rotation_matrix_to_euler_angles(R) :

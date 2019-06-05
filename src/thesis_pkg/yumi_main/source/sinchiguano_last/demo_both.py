@@ -10,7 +10,7 @@
 
 """
 import sys
-sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/source/scripts/project')
+sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/source/project')
 from thesis_library import *
 from yumipy import YuMiRobot
 from yumipy import YuMiState,YuMiArm_ROS
