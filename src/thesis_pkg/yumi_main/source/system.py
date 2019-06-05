@@ -48,12 +48,16 @@ def do_vector3d(pc):
     start_timer=time.time()
     pcd.points = Vector3dVector(pc)
 
-    #Tuesday 4 June 2019 time 18:36
-    pcd.transform([[ 0.01816031,  0.63209102, -0.77468132,  0.963],
-                    [ 0.99983109, -0.00928973,  0.0158585,   0.019],
-                    [ 0.00282743, -0.77483846, -0.63215296,  0.336],
-                    [ 0.,          0.,          0.,          1.]])
-
+    # #Tuesday 4 June 2019 time 18:36
+    # [[ 0.01816031,  0.63209102, -0.77468132,  0.963],
+    #                 [ 0.99983109, -0.00928973,  0.0158585,   0.019],
+    #                 [ 0.00282743, -0.77483846, -0.63215296,  0.336],
+    #                 [ 0.,          0.,          0.,          1.]])
+    #Wednesday 5 June 2019
+    pcd.transform([[-0.00719423,  0.62009998, -0.78448981,  0.984 ],
+                [ 0.99986146, -0.00731509, -0.01495153,  0.021],
+                [-0.01501005, -0.78448869, -0.61996144,  0.337],
+                [ 0.,          0. ,         0.,          1.  ]])
     return pcd
 
 def do_dataset(source,target):
@@ -175,7 +179,7 @@ def do_publishing_pose(br,transformation):
     t.header.frame_id = 'world'
     t.child_frame_id = 'pose_object'
     t.transform.translation.x = pose_translation[0]+0.01
-    t.transform.translation.y = pose_translation[1]+0.045
+    t.transform.translation.y = pose_translation[1]+0.05
     t.transform.translation.z = pose_translation[2]+0.12
     t.transform.rotation.w = pose_quaternion[3]
     t.transform.rotation.x = pose_quaternion[0]
@@ -240,7 +244,7 @@ def main():
 
             counter2+=1
             #--------------------------------------------------------
-            # Threshold 
+            # Threshold
             filter = do_passthrough_filter(point_cloud = cloud,name_axis = 'x', min_axis = 0.30, max_axis = 0.70)
             filter = do_passthrough_filter(point_cloud = filter,name_axis = 'y', min_axis = -0.10, max_axis = 0.35)
             pcl.save(filter,scene_path +'filter_objects_'+str(counter2)+'.pcd' )
@@ -248,7 +252,7 @@ def main():
 
             # Segmentation process in order to separate the object from table
             #--------------------------------------------------------
-            # 
+            #
             table, objects = do_ransac_plane_segmentation(filter, max_distance = 0.01)
             pcl.save(objects,scene_path +'objects_'+str(counter2)+'.pcd' )
             print('segmentation done!')
@@ -301,7 +305,7 @@ def main():
                     ransac_output=ransac_output_tmp
                     source_=template_[i]
                     transformation_=icp_output.transformation
-                    #do_csv_file(icp_output.transformation,counter1,[end - start],[max_fitness],[min_rmse],rmse_,fitness_)
+                    do_csv_file(icp_output.transformation,counter1,[end - start],[max_fitness],[min_rmse],rmse_,fitness_)
                     #do_drawing_registration(source_, target, ransac_output.transformation)
                     #do_drawing_registration(source_, target, icp_output.transformation)
                     do_publishing_pose(br,transformation_)
