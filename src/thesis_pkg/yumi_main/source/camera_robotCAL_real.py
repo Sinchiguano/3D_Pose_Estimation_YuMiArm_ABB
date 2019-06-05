@@ -11,7 +11,7 @@ Finally I got in xyz coordinates according to ROS
 """
 
 import sys
-sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/yumi_main/scripts/project')
+sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/yumi_main/source/project')
 from thesis_library import *
 
 

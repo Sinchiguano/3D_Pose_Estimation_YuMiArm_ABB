@@ -10,7 +10,7 @@
 Sinchiguano
 """
 import sys
-sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/yumi_main/scripts/project')
+sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/yumi_main/source/project')
 from thesis_library import *
 from yumipy import YuMiRobot
 from yumipy import YuMiState,YuMiArm_ROS

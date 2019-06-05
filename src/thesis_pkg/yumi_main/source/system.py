@@ -8,7 +8,8 @@
 
 
 import sys
-sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/yumi_main/scripts/project')
+sys.path.insert(0, '/home/casch/yumi_depends_ws/src/thesis_pkg/yumi_main/source/project')
+
 
 
 from thesis_library import *
@@ -239,7 +240,7 @@ def main():
 
             counter2+=1
             #--------------------------------------------------------
-            # Threshold when working with the astra
+            # Threshold 
             filter = do_passthrough_filter(point_cloud = cloud,name_axis = 'x', min_axis = 0.30, max_axis = 0.70)
             filter = do_passthrough_filter(point_cloud = filter,name_axis = 'y', min_axis = -0.10, max_axis = 0.35)
             pcl.save(filter,scene_path +'filter_objects_'+str(counter2)+'.pcd' )
@@ -247,7 +248,7 @@ def main():
 
             # Segmentation process in order to separate the object from table
             #--------------------------------------------------------
-            # Real
+            # 
             table, objects = do_ransac_plane_segmentation(filter, max_distance = 0.01)
             pcl.save(objects,scene_path +'objects_'+str(counter2)+'.pcd' )
             print('segmentation done!')
